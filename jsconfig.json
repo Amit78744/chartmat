@@ -1,0 +1,8 @@
+{
+	"exclude": ["node_modules", "dist", ".nuxt", ".vercel", "api"],
+    "compilerOptions": {
+      "module": "esnext",
+      "moduleResolution": "node",
+      "target": "esnext",
+    }
+}

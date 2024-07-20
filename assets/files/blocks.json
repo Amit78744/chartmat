@@ -1,0 +1,1002 @@
+{
+  "chart": {
+    "block": {
+      "title": {
+        "default_value": "",
+        "description": "This title will show up above your block"
+      },
+      "section": {
+        "type": "select",
+        "options": [],
+        "default_value": "",
+        "description": "You can group blocks in sections. You can add/edit sections in the board settings page."
+      },
+      "full_width": {
+        "type": "boolean",
+        "default_value": false,
+        "description": "You can make this block take the entire width"
+      },
+      "background_color": {
+        "type": "color",
+        "default_value": "#FFFFFFFF",
+        "description": "The background color of your block"
+      },
+      "legendPosition": {
+        "type": "select",
+        "options": ["hidden", "top", "bottom"],
+        "default_value": "top",
+        "description": "Shows or hides the legend of the chart"
+      },
+      "showScaleLabel": {
+        "type": "select",
+        "options": ["X & Y", "Only X Axis", "Only Y Axis", "None"],
+        "default_value": "X & Y",
+        "description": "Shows or hides the scale labels"
+      },
+      "stackAxis": {
+        "type": "boolean",
+        "default_value": false,
+        "description": "Whether you want to stack the axis. Useful for stacked column charts."
+      },
+      "beginAtZero": {
+        "type": "select",
+        "options": ["X & Y", "Only X Axis", "Only Y Axis", "None"],
+        "default_value": "None",
+        "description": "Select whether you want to start your chart at zero"
+      },
+      "CustomStepSize": {
+        "label": "Custom Step Size",
+        "type": "boolean",
+        "default_value": false,
+        "description": "Enable the toggle to set a custom step size for chart axis. By default the steps are calculated automatic based on the chart values."
+      },
+      "StepSize": {
+        "type":"number",
+        "default_value": "",
+        "description": "Enter the custom step size for chart axis.",
+        "hide": [["CustomStepSize", "==", false]]
+      },
+      "font_color": {
+        "type": "color",
+        "default_value": "#000000FF",
+        "description": "The font color used in the chart"
+      },
+      "pdf_download": {
+        "label": "PDF download",
+        "type": "boolean",
+        "default_value": true,
+        "description": "Allows to download block data as pdf"
+      },
+      "grid": {
+        "type": "select",
+        "options": ["X & Y", "Only X Axis", "Only Y Axis", "None"],
+        "default_value": "None",
+        "description": "Show or hide the grid lines of the chart"
+      },
+      "grid_color": {
+        "type": "color",
+        "default_value": "#0000000F",
+        "description": "The color of your grid lines"
+      },
+      "x_axis": {
+        "type": "select",
+        "options": [],
+        "default_value": null,
+        "non_null": true,
+        "description": "This is the X axis of your chart. It's shared between all your other axes"
+      }
+    },
+    "axis": {
+      "column": {
+        "type": "select",
+        "options": [],
+        "default_value": null,
+        "non_null": true,
+        "description": "The column used for the data of this axis"
+      },
+      "type": {
+        "type": "select",
+        "options": ["line", "bar", "horizontal-bar", "radar", "pie", "polarArea", "scatter"],
+        "default_value": "bar",
+        "description": "The chart type"
+      },
+      "backgroundColor": {
+        "type": "colors",
+        "default_value": ["#0800FF70"],
+        "description": "You can add multiple background colors for this axis"
+      },
+      "borderColor": {
+        "type": "color",
+        "default_value": "#6F00FFFF",
+        "description": "The color of the border of the axis (in line charts, it's the line color)"
+      },
+      "internal_labels": {
+        "type": "select",
+        "options": ["None", "Name", "Value", "Name and value"],
+        "default_value": "None",
+        "description": "Select whether you want to show a label inside your chart"
+      },
+      "duplicateXAxis": {
+        "type": "select",
+        "options": ["sum", "average"],
+        "default_value": "sum",
+        "description": "If your X axis has duplicate values (like equal dates) you can either average or sum the values for this axis"
+      },
+      "decimal": {
+        "type": "select",
+        "options": [",", "."],
+        "default_value": ".",
+        "description": "Select the decimal separator of your data"
+      },
+      "spanGaps": {
+        "type": "boolean",
+        "default_value": true,
+        "description": "Whether you want to join the chart on missing data points"
+      },
+      "borderWidth": {
+        "type": "range",
+        "min": 0,
+        "max": 5,
+        "default_value": 1
+      },
+      "pointRadius": {
+        "type": "range",
+        "min": 0,
+        "max": 5,
+        "default_value": 0
+      },
+      "pointHoverRadius": {
+        "type": "range",
+        "min": 0,
+        "max": 5,
+        "default_value": 0
+      }
+    }
+  },
+  "table": {
+    "block": {
+      "title": {
+        "default_value": "",
+        "description": "This title will show up above your block"
+      },
+      "section": {
+        "type": "select",
+        "options": [],
+        "default_value": "",
+        "description": "You can group blocks in sections. You can add/edit sections in the board settings page."
+      },
+      "full_width": {
+        "type": "boolean",
+        "default_value": false,
+        "description": "You can make this block take the entire width"
+      },
+      "background_color": {
+        "type": "color",
+        "default_value": "#FFFFFFFF",
+        "description": "The background color of your table"
+      },
+      "paginate": {
+        "type": "boolean",
+        "default_value": true,
+        "description": "Display a search box and paginate results"
+      },
+      "rows_per_page": {
+        "type": "number",
+        "description": "Max number of the records to be shown per page. (Default 10 If not provided)",
+        "hide": [["paginate", "==", false]]
+      },
+      "csv_download": {
+        "label": "CSV download",
+        "type": "boolean",
+        "default_value": false,
+        "description": "Allows to download the data of the table as a CSV file"
+      },
+      "pdf_download": {
+        "label": "PDF download",
+        "type": "boolean",
+        "default_value": true,
+        "description": "Allows to download block data as pdf"
+      },
+      "show_details_on_click": {
+        "type": "boolean",
+        "default_value": "false",
+        "description": "Show details on click on row"
+      },
+      "add_new_row": {
+        "type": "select",
+        "options": ["Admins", "Admins & Guests", "None", "Everyone"],
+        "default_value": "None",
+        "description": "Select who can add new row"
+      },
+      "add_row_button_title": {
+        "type": "input",
+        "description": "Set title of Add Row button. (Default : Add Row)"
+      },
+      "add_row_button_color": {
+        "type": "color",
+        "default_value": "#4f46E5",
+        "description": "The background color of the button Add row"
+      },
+      "add_row_text_color": {
+        "type": "color",
+        "default_value": "#FFFFFFFF",
+        "description": "The text color of the button Add row"
+      },
+      "action_button_visibility": {
+        "type": "select",
+        "options": ["Admins", "Admins & Guests", "None", "Everyone"],
+        "default_value": "None",
+        "description": "Select who can see the action buttons"
+      },
+      "freeze_actions_column": {
+        "type": "boolean",
+        "default_value": false,
+        "description": "Actions column fixed at right end"
+      }, 
+      "column_width": {
+        "type": "number",
+        "default_value": "",
+        "description": "Width of all columns including actions column will be set to the given width. This would also override the individual column width set for each Axes. [ Default 200px ]",
+        "hide":[["freeze_actions_column","!==",true]]
+      }, 
+      "submit_button_title": {
+        "type": "input",
+        "description": "Set custom title of submit button of Add/Edit form"
+      },
+      "submit_button_text_color": {
+        "type": "color",
+        "default_value": "#FFFFFFFF",
+        "description": "The text color of the submit button"
+      },
+      "submit_button_color": {
+        "type": "color",
+        "default_value": "#4f46E5",
+        "description": "The background color of the submit button"
+      }
+    },
+    "axis": {
+      "column": {
+        "type": "select",
+        "options": [],
+        "default_value": null,
+        "non_null": true,
+        "description": "The column used for the data of this axis"
+      },
+      "use_markdown": {
+        "type": "boolean",
+        "default_value": true,
+        "description": "If true, links will be clickable and you can use markdown & HTML syntax",
+        "hide": [["type", "!in", ["text", "textarea", "url", "email"]]]
+      },
+      "hidden": {
+        "type": "boolean",
+        "default_value": false,
+        "description": "If true, this column won't show up. It will be visible only when the row is clicked"
+      },
+      "editable": {
+        "type": "select",
+        "options": ["Admins", "Admins & Guests", "None", "Everyone"],
+        "default_value": "None",
+        "description": "Select who can edit this field"
+      },
+      "column_width": {
+        "type": "number",
+        "description": "Instead of auto-size given width will be applied to column. Leave it blank for auto."
+      },
+      "type": {
+        "type": "select",
+        "default_value": "text",
+        "options": ["text", "number", "select", "multi-select", "textarea", "markdowntext", "month", "tel", "time", "url", "image", "week", "email", "date", "datetime-local"],
+        "description": "Select the form element type for this editable field"
+      },
+      "from_google_sheet": {
+        "type": "boolean",
+        "default": false,
+        "description": "Select the form element type for this editable field",
+        "hide": [["type", "!in", ["select", "multi-select"]]]
+      },
+      "source": {
+        "type": "datasource",
+        "placeholder": "Option 1, Option 2",
+        "default_value": "",
+        "description": "Select source google sheet and column",
+        "hide": [
+          ["type", "!in", ["select", "multi-select"]],
+          ["from_google_sheet", "!==", true]
+        ]
+      },
+      "options": {
+        "type": "input",
+        "placeholder": "Option 1, Option 2",
+        "default_value": "true, false",
+        "description": "You can add fixed options here separated by a comma like: option 1, option 2, etc",
+        "hide": [
+          ["type", "!in", ["select", "multi-select"]],
+          ["from_google_sheet", "!==", false]
+        ]
+      },
+      "character_limit": {
+        "type": "number",
+        "description": "Number of characters visible in the table column",
+        "hide": [["type", "!in", ["text", "textarea", "url", "select", "multi-select", "markdowntext"]]]
+      },
+      "image_source": {
+        "type": "select",
+        "default_value": "External URL",
+        "options": ["External URL", "Upload Image"],
+        "hide": [["type", "!==", "image"]]
+      }
+    },
+    "actions": {
+      "title": {
+        "default_value": "",
+        "description": "Title for the action"
+      },
+      "type": {
+        "type": "select",
+        "options": ["Edit row", "Duplicate row", "Delete row", "Open link", "API call", "Compose Email", "Copy to clipboard", "Download pdf"],
+        "description": "Select the form element type for this editable field"
+      },
+      "button_color": {
+        "type": "color",
+        "default_value": "#4f46E5",
+        "description": "The background color of the button"
+      },
+      "text_color": {
+        "type": "color",
+        "default_value": "#FFFFFFFF",
+        "description": "The text color of the button"
+      },
+      "source_column": {
+        "type": "sheet_columns",
+        "hide": [["type", "!in", ["Open link", "Compose Email"]]]
+      },
+      "pdf_template": {
+        "label": "PDF Template",
+        "type": "textarea",
+        "hide": [["type", "!in", ["Download pdf"]]]
+      },
+      "api_endpoint": {
+        "label": "API Endpoint",
+        "type": "input",
+        "hide": [["type", "!in", ["API call"]]]
+      },
+      "http_method": {
+        "label": "HTTP Method",
+        "type": "select",
+        "options": ["POST"],
+        "default_value": "POST",
+        "hide": [["type", "!in", ["API call"]]]
+      },
+      "body_type": {
+        "label": "Body Type",
+        "type": "select",
+        "options": ["JSON", "Form-data"],
+        "default_value": "Json",
+        "hide": [["type", "!in", ["API call"]]]
+      },
+      "authorization_method": {
+        "type": "select",
+        "options": ["No Auth", "Bearer Token", "Custom Header"],
+        "default_value": "No Auth",
+        "hide": [["type", "!in", ["API call"]]]
+      },
+      "custom_header": {
+        "type": "input",
+        "hide": [["authorization_method", "!in", ["Custom Header"]]]
+      },
+      "token": {
+        "type": "input",
+        "hide": [["authorization_method", "!in", ["Bearer Token", "Custom Header"]]]
+      },
+      "field_mapping": {
+        "type": "kv_pair",
+        "hide": [["type", "!in", ["API call"]]]
+      },
+      "success_message": {
+        "default_value": "",
+        "description": "Message to be shown when action successfully executed.",
+        "hide": [["type", "!in", ["Edit row", "Duplicate row", "Delete row", "API call", "Copy to clipboard", "Download pdf"]]]
+      },
+      "error_message": {
+        "default_value": "",
+        "description": "Message to be shown when action execution fails.",
+        "hide": [["type", "!in", ["Edit row", "Duplicate row", "Delete row", "API call", "Copy to clipboard", "Download pdf"]]]
+      }
+    }
+  },
+  "calendar": {
+    "block": {
+      "title": {
+        "default_value": "",
+        "description": "This title will show up above your block"
+      },
+      "section": {
+        "type": "select",
+        "options": [],
+        "default_value": "",
+        "description": "You can group blocks in sections. You can add/edit sections in the board settings page."
+      },
+      "full_width": {
+        "type": "boolean",
+        "default_value": false,
+        "description": "You can make this block take the entire width"
+      },
+      "background_color": {
+        "type": "color",
+        "default_value": "#FFFFFFFF",
+        "description": "The background color of your calendar block"
+      },
+      "default_calendar_view": {
+        "type": "select",
+        "options": ["Month","Week", "Day"],
+        "default_value": "Month",
+        "description": "Default calender view"
+      },
+      "default_calendar_month": {
+        "type": "select",
+        "options": ["Current month","Selected month"],
+        "default_value": "Current month",
+        "description": "Default is current month, In case month other then current month is needed, chooes 'Selected month' ",
+        "hide":[["default_calendar_view","!==","Month"]]
+      },
+      "calender_year": {
+        "type": "number",
+        "hide": [["default_calendar_month", "!==", "Selected month"]]
+      },
+      "calender_month": {
+        "type": "select",
+        "options": ["01","02","03","04","05","06","07","08","09","10","11","12"],
+        "default_value": 1,
+        "hide": [["default_calendar_month", "!==", "Selected month"]]
+      },
+      "start_time_column": {
+        "type": "sheet_columns",
+        "description": "Start time of your event. Timestamp format should be YYYY-MM-DDTHH:MM (Ex. 2023-10-05T11:30)"
+      },
+      "end_time_column": {
+        "type": "sheet_columns",
+        "description": "End time of your event. Timestamp format should be YYYY-MM-DDTHH:MM (Ex. 2023-10-05T11:30)"
+      },
+      "event_title_column": {
+        "type": "sheet_columns",
+        "description":"This title will be displayed on calendar events"
+      },
+      "show_details_on_click": {
+        "type": "boolean",
+        "default_value": "false",
+        "description": "Show details on click of event"
+      }
+    },
+    "axis": {
+      "column": {
+        "type": "select",
+        "options": [],
+        "default_value": null,
+        "non_null": true,
+        "description": "The column used for the data of this axis"
+      },
+      "use_markdown": {
+        "type": "boolean",
+        "default_value": true,
+        "description": "If true, links will be clickable and you can use markdown & HTML syntax",
+        "hide": [["type", "!in", ["text", "textarea", "url", "email"]]]
+      },
+      "type": {
+        "type": "select",
+        "default_value": "text",
+        "options": ["text", "number", "select", "multi-select", "textarea", "markdowntext", "month", "tel", "time", "url", "image", "week", "email", "date", "datetime-local"],
+        "description": "Select the form element type for this editable field"
+      },
+      "hidden": {
+        "type": "boolean",
+        "default_value": false,
+        "description": "If true, this column won't show up. It will be visible only when the row is clicked"
+      }
+    },
+    "actions": {
+      "title": {
+        "default_value": "",
+        "description": "Title for the action"
+      },
+      "type": {
+        "type": "select",
+        "options": ["Edit row", "Duplicate row", "Delete row", "Open link", "API call", "Compose Email", "Copy to clipboard", "Download pdf"],
+        "description": "Select the form element type for this editable field"
+      },
+      "button_color": {
+        "type": "color",
+        "default_value": "#FFFFFFFF",
+        "description": "The background color of the button"
+      },
+      "text_color": {
+        "type": "color",
+        "default_value": "#FFFFFFFF",
+        "description": "The text color of the button"
+      },
+      "source_column": {
+        "type": "sheet_columns",
+        "hide": [["type", "!in", ["Open link", "Compose Email"]]]
+      },
+      "pdf_template": {
+        "label": "PDF Template",
+        "type": "textarea",
+        "hide": [["type", "!in", ["Download pdf"]]]
+      },
+      "api_endpoint": {
+        "label": "API Endpoint",
+        "type": "input",
+        "hide": [["type", "!in", ["API call"]]]
+      },
+      "http_method": {
+        "label": "HTTP Method",
+        "type": "select",
+        "options": ["POST"],
+        "default_value": "POST",
+        "hide": [["type", "!in", ["API call"]]]
+      },
+      "body_type": {
+        "label": "Body Type",
+        "type": "select",
+        "options": ["JSON", "Form-data"],
+        "default_value": "Json",
+        "hide": [["type", "!in", ["API call"]]]
+      },
+      "authorization_method": {
+        "type": "select",
+        "options": ["No Auth", "Bearer Token", "Custom Header"],
+        "default_value": "No Auth",
+        "hide": [["type", "!in", ["API call"]]]
+      },
+      "custom_header": {
+        "type": "input",
+        "hide": [["authorization_method", "!in", ["Custom Header"]]]
+      },
+      "token": {
+        "type": "input",
+        "hide": [["authorization_method", "!in", ["Bearer Token", "Custom Header"]]]
+      },
+      "field_mapping": {
+        "type": "kv_pair",
+        "hide": [["type", "!in", ["API call"]]]
+      },
+      "success_message": {
+        "default_value": "",
+        "description": "Message to be shown when action successfully executed.",
+        "hide": [["type", "!in", ["Edit row", "Duplicate row", "Delete row", "API call", "Copy to clipboard", "Download pdf"]]]
+      },
+      "error_message": {
+        "default_value": "",
+        "description": "Message to be shown when action execution fails.",
+        "hide": [["type", "!in", ["Edit row", "Duplicate row", "Delete row", "API call", "Copy to clipboard", "Download pdf"]]]
+      }
+    }
+  },
+  "form": {
+    "block": {
+      "title": {
+        "default_value": "",
+        "description": "This title will show up above your block"
+      },
+      "section": {
+        "type": "select",
+        "options": [],
+        "default_value": "",
+        "description": "You can group blocks in sections. You can add/edit sections in the board settings page."
+      },
+      "full_width": {
+        "type": "boolean",
+        "default_value": false,
+        "description": "You can make this block take the entire width"
+      },
+      "background_color": {
+        "type": "color",
+        "default_value": "#FFFFFFFF",
+        "description": "The background color of your form"
+      },
+      "labels_color": {
+        "type": "color",
+        "default_value": "#000000FF",
+        "description": "The color of the labels"
+      },
+      "input_color": {
+        "type": "color",
+        "default_value": "#FFFFFFFF",
+        "description": "The color of the inputs"
+      },
+      "submit_text": {
+        "type": "input",
+        "default_value": "Submit",
+        "description": "The text inside the submit button"
+      },
+      "submit_button_text_color": {
+        "type": "color",
+        "default_value": "#FFFFFFFF",
+        "description": "The text color of the submit button"
+      },
+      "submit_button_color": {
+        "type": "color",
+        "default_value": "#FFFFFFFF",
+        "description": "The background color of the submit button"
+      },
+      "submit_success": {
+        "type": "input",
+        "default_value": "Data added to the spreadsheet",
+        "description": "The message to show when you submit the form"
+      }
+    },
+    "axis": {
+      "column": {
+        "type": "select",
+        "options": [],
+        "default_value": null,
+        "non_null": true,
+        "description": "The column used for the data of this axis"
+      },
+      "label": {
+        "type": "input",
+        "default_value": null,
+        "description": "By default we use the column name as input. However here you can customize it if you wish."
+      },
+      "description": {
+        "type": "input",
+        "default_value": null,
+        "description": "You can add a description below your label"
+      },
+      "type": {
+        "type": "select",
+        "default_value": "text",
+        "options": ["text", "number", "select", "multi-select", "textarea", "markdowntext", "file", "month", "tel", "time", "url", "week", "email", "date", "datetime-local"],
+        "description": "Select the form element type"
+      },
+      "from_google_sheet": {
+        "type": "boolean",
+        "default": false,
+        "description": "Select the form element type for this editable field",
+        "hide": [["type", "!in", ["select", "multi-select"]]]
+      },
+      "options": {
+        "type": "input",
+        "placeholder": "Option 1, Option 2",
+        "default_value": "",
+        "description": "You can add fixed options here separated by a comma like: option 1, option 2, etc. If you leave it empty we will generate this field from the column rows.",
+        "hide": [
+          ["type", "!in", ["select", "multi-select"]],
+          ["from_google_sheet", "==", true]
+        ]
+      },
+      "source": {
+        "type": "datasource",
+        "placeholder": "Option 1, Option 2",
+        "default_value": "",
+        "description": "Select source google sheet and column",
+        "hide": [
+          ["type", "!in", ["select", "multi-select"]],
+          ["from_google_sheet", "!==", true]
+        ]
+      },
+      "file_mime_type": {
+        "type": "select",
+        "options": ["*", "image/*", "video/*", "audio/*", "text/*", ".pdf", ".doc,.docx", ".csv,.xml,.xls,.xlsm,.xlsx"],
+        "default_value": "image/*",
+        "description": "Select the type of file which can be uploaded (e.g. only images)",
+        "hide": [["type", "!==", "file"]]
+      },
+      "hide": {
+        "type": "boolean",
+        "description": "If you hide a field it won't show in the form. Useful when you have a default value like [(today)].",
+        "default_value": false
+      },
+      "regex_validation": {
+        "type": "input",
+        "default_value": "",
+        "placeholder": "/\\S+\\S+\\.\\S+/",
+        "description": "Leave empty to skip validation",
+        "hide": [["type", "in", ["file"]]]
+      },
+      "placeholder": {
+        "type": "input",
+        "placeholder": "This is a placeholder",
+        "default_value": "Type here..",
+        "description": "Add the placeholder for this input here",
+        "hide": [["type", "in", ["file", "select"]]]
+      },
+      "default": {
+        "type": "input",
+        "placeholder": "This value will be pre-filled",
+        "default_value": "",
+        "description": "You can add a default value which will be pre-filled. You can also use: [(today)] and [(user_email)]"
+      }
+    }
+  },
+  "grid": {
+    "block": {
+      "title": {
+        "default_value": "",
+        "description": "This title will show up above your block"
+      },
+      "section": {
+        "type": "select",
+        "options": [],
+        "default_value": "",
+        "description": "You can group blocks in sections. You can add/edit sections in the board settings page."
+      },
+      "background_color": {
+        "type": "color",
+        "default_value": "#FFFFFFFF",
+        "description": "The background color of your grid block"
+      },
+      "element_background_color": {
+        "type": "color",
+        "default_value": "#FFFFFFFF",
+        "description": "The background color of your individual grid element"
+      },
+      "button_group_alignment": {
+        "type": "select",
+        "options": ["left", "center", "right"],
+        "default_value": "left",
+        "description": "Alignment for the button group."
+      },
+      "columns": {
+        "type": "select",
+        "options": [1, 2, 3, 4],
+        "default_value": 4,
+        "description": "The number of columns on desktop computers"
+      }
+    },
+    "axis": {
+      "column": {
+        "type": "select",
+        "options": [],
+        "default_value": null,
+        "non_null": true,
+        "description": "The column used for the data of this axis"
+      },
+      "hide_on_grid": {
+        "type": "boolean",
+        "default_value": false,
+        "description": "Enable this setting if you want to hide the element on grid and only display it on pop up when element is clicked"
+      },
+      "type": {
+        "type": "select",
+        "default_value": "text",
+        "options": ["image", "text", "button"],
+        "description": "Select the element type"
+      },
+      "alignment": {
+        "type": "select",
+        "options": ["left", "center", "right"],
+        "default_value": "left",
+        "description": "Select the alignment of content",
+        "hide": [["type", "!==", "text"]]
+      },
+      "button_text": {
+        "type": "input",
+        "default_value": "View",
+        "description": "You can customize here the text if you chose a button",
+        "hide": [["type", "!==", "button"]]
+      },
+      "background_color": {
+        "type": "color",
+        "default_value": "#FFFFFFFF",
+        "description": "Select the color of the background",
+        "hide": [["type", "!==", "button"]]
+      },
+      "font_color": {
+        "type": "color",
+        "default_value": "#000000FF",
+        "description": "Select the color of the font",
+        "hide": [["type", "==", "image"]]
+      },
+      "round_image": {
+        "type": "boolean",
+        "default_value": true,
+        "description": "Select if you want the image to be round",
+        "hide": [["type", "!==", "image"]]
+      },
+      "round_button": {
+        "type": "boolean",
+        "default_value": true,
+        "description": "Select if you want the button to be round",
+        "hide": [["type", "!==", "button"]]
+      }
+    }
+  },
+  "markdown": {
+    "block": {
+      "title": {
+        "default_value": "",
+        "description": "This title will show up above your block"
+      },
+      "section": {
+        "type": "select",
+        "options": [],
+        "default_value": "",
+        "description": "You can group blocks in sections. You can add/edit sections in the board settings page."
+      },
+      "full_width": {
+        "type": "boolean",
+        "default_value": false,
+        "description": "You can make this block take the entire width"
+      },
+      "font_color": {
+        "type": "color",
+        "default_value": "#000000FF",
+        "description": "The font color of the text"
+      },
+      "background_color": {
+        "type": "color",
+        "default_value": "#FFCC94FF",
+        "description": "The background color of your block"
+      },
+      "loop": {
+        "type": "boolean",
+        "default_value": false,
+        "description": "Select if you want to create a markdown block for each row. If false it will use only the first row."
+      },
+      "columns": {
+        "type": "select",
+        "options": [1, 2, 3, 4],
+        "default_value": 4,
+        "description": "The number of columns on desktop computers",
+        "hide": [["loop", "==", false]]
+      },
+      "gap": {
+        "type": "select",
+        "options": [0, 3, 6, 10],
+        "default_value": 3,
+        "description": "The gap between the items",
+        "hide": [["loop", "==", false]]
+      },
+      "markdown": {
+        "type": "markdowntext",
+        "default_value": "## Hello Markdown!\n\nTry [links](https://chartmat.com), **bold formatting** or <i>HTML</i>. The Sky is the limit.",
+        "rows": 10,
+        "description": "You can write here in markdown or HTML. You can use the column names inside brackets ([ column_name ]) to render the value"
+      }
+    },
+    "axis": {}
+  },
+  "iframe": {
+    "block": {
+      "title": {
+        "default_value": "",
+        "description": "This title will show up above your block"
+      },
+      "section": {
+        "type": "select",
+        "options": [],
+        "default_value": "",
+        "description": "You can group blocks in sections. You can add/edit sections in the board settings page."
+      },
+      "full_width": {
+        "type": "boolean",
+        "default_value": false,
+        "description": "You can make this block take the entire width"
+      },
+      "background_color": {
+        "type": "color",
+        "default_value": "#FFCC94FF",
+        "description": "The background color of your block"
+      },
+      "iframe": {
+        "type": "textarea",
+        "rows": 10,
+        "description": "Paste iframe code copied from the source here."
+      }
+    },
+    "axis": {}
+  },
+  "scorecard": {
+    "block": {
+      "title": {
+        "default_value": "",
+        "description": "This title will show up above your block"
+      },
+      "section": {
+        "type": "select",
+        "options": [],
+        "default_value": "",
+        "description": "You can group blocks in sections. You can add/edit sections in the board settings page."
+      },
+      "full_width": {
+        "type": "boolean",
+        "default_value": false,
+        "description": "You can make this block take the entire width"
+      },
+      "background_color": {
+        "type": "color",
+        "default_value": "#FFCC94FF",
+        "description": "The background color of your block"
+      }
+    },
+    "axis": {
+      "source": {
+        "type": "datasource",
+        "source_sheet": null,
+        "source_column": null,
+        "description": "Select tab and column."
+      },
+      "label": {
+        "type": "input",
+        "default_value": null,
+        "description": "By default we use the column name as input. However here you can customize it if you wish"
+      },
+      "background_color": {
+        "type": "color",
+        "default_value": "#FFFFFFFF",
+        "description": "The background color of your card"
+      },
+      "font_color": {
+        "type": "color",
+        "default_value": "#000000FF",
+        "description": "The font color of the text"
+      },
+      "function": {
+        "type": "select",
+        "description": "Function to be applied to the values of column",
+        "default_value": "sum",
+        "options": ["sum", "average","first row","last row"]
+      },
+      "symbol": {
+        "type": "input",
+        "default_value": "$",
+        "description": "Symbol to be appended to as prefix to value."
+      }
+    }
+  },
+  "map": {
+    "block": {
+      "title": {
+        "default_value": "",
+        "description": "This title will show up above your block"
+      },
+      "section": {
+        "type": "select",
+        "options": [],
+        "default_value": "",
+        "description": "You can group blocks in sections. You can add/edit sections in the board settings page."
+      },
+      "full_width": {
+        "type": "boolean",
+        "default_value": false,
+        "description": "You can make this block take the entire width"
+      },
+      "background_color": {
+        "type": "color",
+        "default_value": "#FFCC94FF",
+        "description": "The background color of your block"
+      }
+    },
+    "axis": {
+      "title": {
+        "type": "select",
+        "options": [],
+        "default_value": null,
+        "non_null": true,
+        "description": "The column to be used for the title field of popup"
+      },
+      "description": {
+        "type": "select",
+        "options": [],
+        "default_value": null,
+        "non_null": true,
+        "description": "The column to be used for the description field of popup"
+      },
+      "address": {
+        "type": "select",
+        "options": [],
+        "default_value": null,
+        "non_null": true,
+        "description": "The column to be used for showing markers of address on map and will be used for address field on popup"
+      },
+      "image": {
+        "type": "select",
+        "options": [],
+        "default_value": null,
+        "non_null": true,
+        "description": "The column used for the image field of popup"
+      }
+    }
+  }
+}

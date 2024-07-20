@@ -1,0 +1,267 @@
+[
+	{
+		"id": "CY7FiVYxCI0qx7X2Pz4N",
+		"description": "Use this template to track your working hours, freelance projects or anything else",
+		"icon": "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z",
+		"title": "Time Tracker",
+		"path": "time-tracker",
+		"spreadsheetId": "1vf2mkE-_bLFxoo3zWh2Fjnx2A69FsSgjxYljygioC78",
+		"template_image": "https://firebasestorage.googleapis.com/v0/b/chart-310113.appspot.com/o/1668766540030-timetracker.png?alt=media&token=o2p8kc3w06m0cgqf521rocrr447zc1bmvh2",
+		"cover_color": "#3F51B582",
+		"featured": true,
+		"link": "https://docs.google.com/spreadsheets/d/1vf2mkE-_bLFxoo3zWh2Fjnx2A69FsSgjxYljygioC78"
+	},
+	{
+		"id": "Jl0wWAkvIRVunmTZN1wT",
+		"description": "Use this template to track who in the company works from where. Ideal to avoid overcrowded spaces",
+		"icon": "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6",
+		"title": "Who is working from the office?",
+		"path": "work-location",
+		"spreadsheetId": "1mYfuC-SEIgEpu_Ko8zle5sA9UqBLu73fLNQK3TaUEsQ",
+		"template_image": "https://firebasestorage.googleapis.com/v0/b/chart-310113.appspot.com/o/1668766626481-whoisworkingfromoffice.png?alt=media&token=81s2tl7nq25t37akl4gawluyxvfsj3w3pck",
+		"cover_color": "#FFC1077D",
+		"featured": true,
+		"link": "https://docs.google.com/spreadsheets/d/1mYfuC-SEIgEpu_Ko8zle5sA9UqBLu73fLNQK3TaUEsQ"
+	},
+	{
+		"id": "Tkpa0TIRgdjwTF36FKAS",
+		"description": "Use this template to track your expenses. Comparing different suppliers and vendors.",
+		"icon": "M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z",
+		"title": "Finance Tracker",
+		"name": "Daily Budget",
+		"path": "daily-budget",
+		"spreadsheetId": "15MQLjBO4GZEQXAkMvmUxsud1OpCI9RUGAKvSEwC602I",
+		"template_image": "https://firebasestorage.googleapis.com/v0/b/chart-310113.appspot.com/o/1668766112001-dailybudget.png?alt=media&token=mo2xvxtw4y4p1vgjhg89el5jgb7sqezmot8",
+		"cover_color": "#0E234A70",
+		"featured": true,
+		"link": "https://docs.google.com/spreadsheets/d/15MQLjBO4GZEQXAkMvmUxsud1OpCI9RUGAKvSEwC602I"
+	},
+	{
+		"id": "X56elUisfhm1j8DwtUDy",
+		"description": "Use this template to create a small shop using paypal.me links. You can also switch to stripe links",
+		"icon": "M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z",
+		"title": "Paypal Shop",
+		"path": "paypal-shop",
+		"spreadsheetId": "1iblzEi5vbvicvUSgsGrNZYcqCE7ftgtwT39VKsj6zaQ",
+		"template_image": "https://firebasestorage.googleapis.com/v0/b/chart-310113.appspot.com/o/1668766481462-paypalshop.png?alt=media&token=wevttcftxpuniguk61lbjzaf6bn93xsvynv",
+		"cover_color": "#5012BA7A",
+		"featured": true,
+		"link": "https://docs.google.com/spreadsheets/d/1iblzEi5vbvicvUSgsGrNZYcqCE7ftgtwT39VKsj6zaQ"
+	},
+	{
+		"id": "95676lt74uht0s0",
+		"description": "Use this template to display important company metrics & information on a screen. Turn on full screen and ideally locate the monitor at a visible place for employees.",
+		"icon": "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4",
+		"title": "Company_Broadcasts_Template",
+		"name": "Company Dashboard",
+		"path": "company-dashboard",
+		"spreadsheetId": "1jCtejhb5dAfxOUb6EAsxTZkJtNy2GtE9Eid6LN0u3DA",
+		"template_image": "https://firebasestorage.googleapis.com/v0/b/chart-310113.appspot.com/o/1668765911079-companydashboard.png?alt=media&token=xx56m0dvd6uzs4bud2soiispu6gega6vw6h",
+		"cover_color": "#FFA91C7D",
+		"featured": true,
+		"link": "https://docs.google.com/spreadsheets/d/1jCtejhb5dAfxOUb6EAsxTZkJtNy2GtE9Eid6LN0u3DA"
+	},
+	{
+		"id": "4236xotyzh8td00",
+		"description": "Use this template to split expenses based on who paid for an item and who participated in the consumption. Review total balances at the end of your trip or event.",
+		"icon": "M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z",
+		"title": "Expense_Splitting_Template",
+		"name": "Split Group Expenses",
+		"path": "split-expenses",
+		"spreadsheetId": "1yThIR9voM1T2xUUBbzYfPWejgWEV13JB4-XnAeXbKis",
+		"template_image": "https://firebasestorage.googleapis.com/v0/b/chart-310113.appspot.com/o/1668778713204-splitgroupexpense.png?alt=media&token=pyih856vemcwpe1ixqweib6uk1u5iaq3f6e",
+		"cover_color": "#7D32E87A",
+		"featured": true,
+		"link": "https://docs.google.com/spreadsheets/d/1yThIR9voM1T2xUUBbzYfPWejgWEV13JB4-XnAeXbKis"
+	},
+	{
+		"id": "374vpu9wgewhw00",
+		"description": "Use this template to update and share your restaurant menu. Combine share the link using a QR code and provide a contactless menu for your customers. Ideally with your logo and domain to maintain brand awareness.",
+		"icon": "M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z",
+		"title": "Lunch_Weekly_Menu_Restaurant",
+		"name": "Weekly Lunch Menu",
+		"path": "restaurant-menu",
+		"spreadsheetId": "1hJgF7OXINMaVvd2txPe-FB6VPWmb6Lrkq6J_PrtBo_s",
+		"link": "https://docs.google.com/spreadsheets/d/1hJgF7OXINMaVvd2txPe-FB6VPWmb6Lrkq6J_PrtBo_s"
+	},
+	{
+		"id": "30nmcmbu6kkv40",
+		"description": "Use this template to record travel expenses such as gas or restaurant bills. Attach images through the form and display the expense summary to the line manager.",
+		"icon": "M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+		"title": "Employee Travel Expense Tracker",
+		"name": "Travel Reimbursements",
+		"path": "travel-reimbursement",
+		"spreadsheetId": "1sj8CvIYRcLaW4Wvo5XBcgeoQ4LYdy85R-UVPZn8_F04",
+		"link": "https://docs.google.com/spreadsheets/d/1sj8CvIYRcLaW4Wvo5XBcgeoQ4LYdy85R-UVPZn8_F04"
+	},
+	{
+		"id": "9062psmjvxvdjs0",
+		"description": "Use this template to create a small job board and receive CV files as PDF directly in a spreadsheet from which you can track job applications. Eventually you could expand it with application metrics.",
+		"icon": "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01",
+		"title": "Job Board",
+		"name": "Job Board",
+		"path": "job-board",
+		"spreadsheetId": "1-qHJkDudZxN9SlHMV6VNiSP6EGXgrIdMi7dq8RhJkIo",
+		"link": "https://docs.google.com/spreadsheets/d/1-qHJkDudZxN9SlHMV6VNiSP6EGXgrIdMi7dq8RhJkIo"
+	},
+	{
+		"id": "139sk6uuvpff2o0",
+		"description": "Use this template to track a portfolio. It's automatically updated using Google Finance data",
+		"icon": "M15 9a2 2 0 10-4 0v5a2 2 0 01-2 2h6m-6-4h4m8 0a9 9 0 11-18 0 9 9 0 0118 0z",
+		"title": "Stock_Market",
+		"name": "Stock Market - Sample Portfolio",
+		"path": "stock-market",
+		"spreadsheetId": "1AZJkhAm97y-1UtdJJ25XTsEzgudz8PIaNpw7L0IS9i0",
+		"link": "https://docs.google.com/spreadsheets/d/1AZJkhAm97y-1UtdJJ25XTsEzgudz8PIaNpw7L0IS9i0"
+	},
+	{
+		"id": "18lbbn5lq3vb40",
+		"description": "Use this template to monitor how your website looks like on search engines. It automatically fetches new pages and shows relevant errors",
+		"icon": "M8 16l2.879-2.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242zM21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+		"title": "Seo metadata",
+		"name": "Seo Metadata",
+		"path": "seo-metadata",
+		"spreadsheetId": "1qRuhV45PdhTeZe5tLit6dfY3k1Uh__s4qAg3V5izs84",
+		"link": "https://docs.google.com/spreadsheets/d/1qRuhV45PdhTeZe5tLit6dfY3k1Uh__s4qAg3V5izs84"
+	},
+	{
+		"id": "502mihxit9a1y80",
+		"description": "This is an example of how you can easily build a dashboard from a CSV file. We use daily updated Covid-19 CSV reports.",
+		"icon": "M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12",
+		"title": "Blank",
+		"name": "CSV Import",
+		"path": "csv-import",
+		"spreadsheetId": "1h3tGdK5xU1wghh7cR9AEomXoURGwJ2foNFkf1c9oeHE",
+		"link": "https://docs.google.com/spreadsheets/d/1h3tGdK5xU1wghh7cR9AEomXoURGwJ2foNFkf1c9oeHE"
+	},
+	{
+		"id": "618s8ifl542os00",
+		"description": "Build a small website to show your opening hours, accept bookings and display your inventory",
+		"icon": "M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2",
+		"title": "Web_Presence_Small_Business",
+		"name": "Business Presence",
+		"path": "business-presence",
+		"spreadsheetId": "1EsdLV5eUEe4ylPdswCClOjGusZpzLbNDjElQgdIwrEw",
+		"template_image": "https://firebasestorage.googleapis.com/v0/b/chart-310113.appspot.com/o/1668765816346-businesspresence.png?alt=media&token=ecfm56ior142rgor4aq2bbdyzu8nnf2kbv4",
+		"cover_color": "#FA812F80",
+		"featured": false,
+		"link": "https://docs.google.com/spreadsheets/d/1EsdLV5eUEe4ylPdswCClOjGusZpzLbNDjElQgdIwrEw"
+	},
+	{
+		"id": "297p7y9ircyi40",
+		"description": "Build a simply directory with Chartmat using the grid block or using the markdown block.",
+		"icon": "M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z",
+		"title": "Chartmat Blank",
+		"name": "Directory",
+		"path": "directory",
+		"spreadsheetId": "1ALk_ecoHLwJSNgqJ-BX5fURxclO5b2NYM7g3VC16x_s",
+		"link": "https://docs.google.com/spreadsheets/d/1ALk_ecoHLwJSNgqJ-BX5fURxclO5b2NYM7g3VC16x_s"
+	},
+	{
+		"id": "606j7bhpqv3j200",
+		"description": "This Board shows you how you can display statistical data with Chartmat.",
+		"icon": "M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z",
+		"title": "Statistical_Data_Dashboard",
+		"name": "Statistical Data - European Union",
+		"path": "statistical-data",
+		"spreadsheetId": "15fkKcb0woTtVAD4KZcszaEPTQA35po8gQuZAeLAlnpc",
+		"link": "https://docs.google.com/spreadsheets/d/15fkKcb0woTtVAD4KZcszaEPTQA35po8gQuZAeLAlnpc"
+	},
+	{
+		"id": "319wy2sby1mj9c0",
+		"description": "Conduct an employee survey in your business and visualize the results. All within the comfort of Chartmat.",
+		"icon": "M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+		"title": "Employee Survey",
+		"name": "Employee Survey",
+		"path": "employee-survey",
+		"spreadsheetId": "1IKJi8-uPQQX9NFKh2T88hs5A1TzG-lFrrUqwhzYPj5o",
+		"link": "https://docs.google.com/spreadsheets/d/1IKJi8-uPQQX9NFKh2T88hs5A1TzG-lFrrUqwhzYPj5o"
+	},
+	{
+		"id": "629m6icjmh2lkw0",
+		"description": "Build a small landing page powered by Google Sheets",
+		"icon": "M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9",
+		"title": "Arch Research Group",
+		"name": "Landing Page",
+		"path": "landing-page",
+		"spreadsheetId": "1v6fEeMKf5XIcwOTomBVuBJZHs-7-2CzOZJcEaYS-YrY",
+		"template_image": "https://firebasestorage.googleapis.com/v0/b/chart-310113.appspot.com/o/1668766327982-landingpage.png?alt=media&token=0i0e5p506cp9eklrfwyn19tk56bzj0vt3e3",
+		"cover_color": "#25CAAC7A",
+		"featured": true,
+		"link": "https://docs.google.com/spreadsheets/d/1v6fEeMKf5XIcwOTomBVuBJZHs-7-2CzOZJcEaYS-YrY"
+	},
+	{
+		"id": "24414c6uwf9odds",
+		"description": "Build a small store using Stripe payment links",
+		"icon": "M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z",
+		"title": "e-commerce shop",
+		"path": "e-commerce-shop",
+		"spreadsheetId": "1wbhvSigrGQnyzUbIwgg_RBiFkyx6DvvsTALxN9OjQTw",
+		"template_image": "https://firebasestorage.googleapis.com/v0/b/chart-310113.appspot.com/o/1668766219998-ecommerce.png?alt=media&token=m17xj96kd2verlyvbvyt4biwnshojsua1ky",
+		"cover_color": "#077B8A66",
+		"featured": true,
+		"link": "https://docs.google.com/spreadsheets/d/1wbhvSigrGQnyzUbIwgg_RBiFkyx6DvvsTALxN9OjQTw"
+	},
+	{
+		"id": "352b9jopfr0pk00",
+		"description": "Internal dashboard for a consulting company",
+		"icon": "M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3",
+		"title": "Consulting_Company",
+		"name": "Consulting",
+		"path": "consulting",
+		"spreadsheetId": "1ABkzl1N6MnVF-YYvXmsnL6kcdz4uic_OKZdrvzEHF9w",
+		"link": "https://docs.google.com/spreadsheets/d/1ABkzl1N6MnVF-YYvXmsnL6kcdz4uic_OKZdrvzEHF9w"
+	},
+	{
+		"id": "40i904fcweu1s0",
+		"description": "Learn how to show different data to different users using filters.",
+		"icon": "M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z",
+		"title": "Golf_School",
+		"name": "Golf School",
+		"path": "golf-school",
+		"spreadsheetId": "1Qvui_EucTfAOh19a5kjnW8mbl268149mn8El48sci_U",
+		"link": "https://docs.google.com/spreadsheets/d/1Qvui_EucTfAOh19a5kjnW8mbl268149mn8El48sci_U"
+	},
+	{
+		"id": "390y68wva6xk800",
+		"title": "Einnahmen_Ausgaben_Rechnung",
+		"path": "beispielapp",
+		"spreadsheetId": "1Tt_h3vGLSU81i-tRa1Jxm7ildMh30Mv_z2Ynwl9RKcg",
+		"link": "https://docs.google.com/spreadsheets/d/1Tt_h3vGLSU81i-tRa1Jxm7ildMh30Mv_z2Ynwl9RKcg"
+	},
+	{
+		"id": "346544izspz6900",
+		"description": "Company wide Feedback",
+		"icon": "M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z",
+		"title": "Company wide Feedback",
+		"name": "Company wide Feedback",
+		"path": "company-feedback",
+		"spreadsheetId": "1mGld0QaRN0XWF2FKrmUZslWVzdKXIwqO47j5t86RAW0",
+		"template_image": "https://firebasestorage.googleapis.com/v0/b/chart-310113.appspot.com/o/1668765996854-companyfeedback.png?alt=media&token=4d2raas0we8r8p9dqddi1xyqw9cfm6mi1l6",
+		"cover_color": "#007E7E80",
+		"featured": true,
+		"link": "https://docs.google.com/spreadsheets/d/1mGld0QaRN0XWF2FKrmUZslWVzdKXIwqO47j5t86RAW0"
+	},
+	{
+		"id": "428jho9q7fj93s0",
+		"description": "Task Manager",
+		"icon": "M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z",
+		"title": "Task Manager",
+		"name": "Task Manager",
+		"path": "task-manager",
+		"spreadsheetId": "1tZUA-qsJ6BEaaxqlxSF0MZT1GZMBAkN-sbvggI0a2mU",
+		"template_image": {
+			"template_image": "https://firebasestorage.googleapis.com/v0/b/chart-310113.appspot.com/o/1662126398341-8d297-thinkstockphotos-495193237.jpg?alt=media&token=ii5awt9clrbq2uzmhoshk90nqxkqhwot6ra"
+		},
+		"featured": false,
+		"link": "https://docs.google.com/spreadsheets/d/1tZUA-qsJ6BEaaxqlxSF0MZT1GZMBAkN-sbvggI0a2mU"
+	},
+	{
+		"id": "314x3np7scqn340",
+		"title": "Time Tracker",
+		"path": "time-tracker-clone-1663759538589",
+		"spreadsheetId": "11qV7EMTEUaNQtHynX6jnbc-RmAamj-0BqS5ozddv0Fk",
+		"featured": true,
+		"link": "https://docs.google.com/spreadsheets/d/11qV7EMTEUaNQtHynX6jnbc-RmAamj-0BqS5ozddv0Fk"
+	}
+]

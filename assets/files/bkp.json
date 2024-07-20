@@ -1,0 +1,10 @@
+"success_message": {
+    "default_value": "",
+    "description": "Message to be shown when action successfully executed.",
+    "hide": [["type", "!in", ["Delete row", "API call", "Copy to clipboard", "Download pdf"]]]
+  },
+  "error_message": {
+    "default_value": "",
+    "description": "Message to be shown when action successfully fails.",
+    "hide": [["type", "!in", ["Delete row", "API call", "Copy to clipboard", "Download pdf"]]]
+  }

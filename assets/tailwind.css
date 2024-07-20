@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "~/assets/custom.css";
+@import "~/assets/range.css";
+@import "tailwindcss/utilities";
+
+@layer base {
+	:root {
+		--color--one:  #43464d;
+		--color--two:  #d81f52;
+		--color--three: #f1eced;
+	}
+}
+ 
