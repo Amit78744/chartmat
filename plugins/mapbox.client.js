@@ -6,6 +6,7 @@ const mbxGeoCoding = require('@mapbox/mapbox-sdk/services/geocoding')
 
 export default async function ({ $axios,$config }, inject) {
     const CHARTMAT_MAPBOX_AUTH_TOKEN = await $axios.$get('/api/getENV/CHARTMAT_MAPBOX_AUTH_TOKEN');
+    console.log("Amit",CHARTMAT_MAPBOX_AUTH_TOKEN)
     const baseClient = new mbxClient({ accessToken: CHARTMAT_MAPBOX_AUTH_TOKEN })
     const geocodeClient = mbxGeoCoding(baseClient)
     inject('geocode', geocodeClient)
