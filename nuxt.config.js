@@ -60,9 +60,12 @@ export default {
 			// start_url:`${process.env.CHARTMAT_BASE_URL}`
 		}
 	},
+	env: {
+		MAPBOX_ACCESS_TOKEN: process.env.MAPBOX_ACCESS_TOKEN
+	},
 	plugins: [
 		// { src: '~/plugins/ga.client.js', mode:'client'},
-		{ src: '~/plugins/mapbox.client.js', mode: 'client' },
+		{ src: '~/plugins/mapbox.client.js', mode: 'server' },
 		{ src: '~/plugins/axios.client.js', mode: 'client' },
 		{ src: '~/plugins/integrations.client.js', mode: 'client' },
 		{ src: '~/plugins/pwa-updater.js', mode: 'client' },
