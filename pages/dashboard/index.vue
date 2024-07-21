@@ -34,7 +34,7 @@
 					<div class='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
 						<div v-for="workspace in workspaces" :key="workspace.id" class='overflow-hidden p-6 rounded border border-gray-200 bg-slate-50'>
 														
-							<a :href="`//${workspace.subdomain}.${CHARTMAT_BOARD_BASE_URL}/admin`" class='w-full flex items-center justify-between text-slate-800 hover:text-slate-900'>
+							<a :href="`//${workspace.subdomain}.${CHARTMAT_BOARD_BASE_URL}/admin?token=${workspace.login_token}`" class='w-full flex items-center justify-between text-slate-800 hover:text-slate-900'>
 								<span class='text-2xl font-bold block truncate'>{{workspace.name}}</span>
 								<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
