@@ -78,12 +78,7 @@ export default {
 		retry: { retries: 0 }
 	},
 	// All /API calls get proxied to the main app which runs on port 4000
-	axios: {
-		proxy: true,
-	  },
-	  proxy: {
-		'/api/': { target: 'http://localhost:3000', pathRewrite: {'^/api/': ''} },
-	  },
+	proxy: useProxy ? ['http://localhost:3030/api'] : false,
 	sentry: {
 		dsn: process.env.CHARTMAT_SENTRY_FRONTEND_DSN,
 		// disableServerSide: true

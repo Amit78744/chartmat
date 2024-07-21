@@ -229,16 +229,7 @@ const main_routes = module.exports = [
 	{
 		url: "/api/getENV/:name",
 		method: ["GET"],
-		preHandler: [],
 		handler: async (req, rep) => {
-			rep.setHeader('Access-Control-Allow-Origin', '*'); // Allows all origins
-			rep.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
-			rep.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-
-			if (req.method === 'OPTIONS') {
-				return rep.status(200).end();
-			}
-			  
 		  const { name } = req.params;
 	  
 		  // Fetch the environment variable value by its name
