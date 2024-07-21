@@ -9,7 +9,6 @@ export default {
 	publicRuntimeConfig: {  // Available in the frontend with $config
 		CHARTMAT_BASE_URL: process.env.CHARTMAT_BASE_URL,
 		CHARTMAT_STATIC_FORMS: "2354714e-444c-4a6e-b38f-868df2f9dfb7",
-		CHARTMAT_MAPBOX_AUTH_TOKEN: process.env.CHARTMAT_MAPBOX_AUTH_TOKEN,
 	},
 	privateRuntimeConfig: {
 		CHARTMAT_BOARD_BASE_URL: process.env.CHARTMAT_BOARD_BASE_URL,
