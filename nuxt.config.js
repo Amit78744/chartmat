@@ -6,9 +6,6 @@ export default {
 	telemetry: false,
 	components: true,
 	pageTransition: 'fade',
-	serverMiddleware: [
-		{ path: '/api/secure-data', handler: '~/middleware/secure-data.js' }
-	  ],
 	publicRuntimeConfig: {  // Available in the frontend with $config
 		CHARTMAT_BASE_URL: process.env.CHARTMAT_BASE_URL,
 		CHARTMAT_STATIC_FORMS: "2354714e-444c-4a6e-b38f-868df2f9dfb7",
